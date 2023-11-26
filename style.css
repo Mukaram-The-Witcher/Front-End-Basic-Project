@@ -1,0 +1,350 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* this all will design using display grid */
+/* .main-container{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+}
+nav{
+    margin-top: 1%;
+    display: inline-grid;
+}
+.head{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 0);
+    font-size: xx-large;
+    font-family: fantasy;
+    width: 3%;
+    margin-left: 1%;
+}
+.text{
+    margin-left: 8em;
+    margin-top: -1em;
+    font-size: xx-small;
+    color: grey;
+}
+
+.main{
+    margin-left: 5%;
+    margin-top: -3%;
+    font-family: sans-serif;
+} */
+/* .navbar ul li{
+    display: inline-grid;
+    float: right;
+    margin-right: 4%;
+    margin-top: -35px;
+    height: 12vh;
+} */
+/* .view{
+    padding: 1em;
+    margin-left: 29%;
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+.view span{
+    font-weight: 700;
+}
+.line{
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    margin-top: -2%;
+    width: 40%;
+    align-content: center;
+    text-align: center;
+}
+.button{
+    margin-top: 2%;
+}
+.button button {
+    margin: auto;
+    width: 16%;
+    display: grid;
+    border-radius: 8px;
+    background-color: #03B4CD;
+    border: none;
+}
+.button button a{
+    padding: 0.9em;
+    text-decoration: none;
+    color: white;
+} */
+/* designing with Display flex */
+.head{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 0);
+    font-size: xx-large;
+    font-family: fantasy;
+    width: 3%;
+    margin-left: 1%;
+}
+.main{
+    display: flex;
+    margin-left: 5%;
+    margin-top: -3%;
+    font-family: sans-serif;
+}
+.text{
+    margin-left: 8em;
+    font-size: xx-small;
+    color: grey;
+}
+.navbar ul li{
+    display: flex;
+    float: right;
+    margin-right: 4%;
+    margin-top: -35px;
+    height: 12vh;}
+ ul svg{
+        float: right;
+        margin-top: -2%;
+        margin-right: 2%;
+}
+.view{
+    padding: 3em;
+    margin-left: 24%;
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+.view span{
+    font-weight: 700;
+}
+.line{
+    justify-content: center;
+    margin: auto;
+    margin-top: -8%;
+    width: 43%;
+    text-align: center;
+    font-size: medium;
+    font-family: sans-serif;
+}
+.button{
+    margin-top: 2%;
+}
+.button button {
+    margin: auto;
+    width: 16%;
+    display: grid;
+    border-radius: 8px;
+    background-color: #03B4CD;
+    border: none;
+}
+.button button a{
+    padding: 0.9em;
+    text-decoration: none;
+    color: white;
+}
+
+.section{
+    margin-left: 31%;
+    margin-top: 3%;
+}
+.yellow-box{
+    background: rgb(255 215 0);
+    padding: 0.5em;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+.para{
+    display: flex;
+    margin-left: 20%;
+    margin-top: -1.5%;
+    font-size: x-small;
+    color: grey;
+
+    /* display: inline-grid;
+    margin-left: 7px;
+    font-size: x-small;
+    color: grey; */
+}
+.Button-head {
+    display: flex;
+    font-family: sans-serif;
+    margin-left: 5%;
+    margin-top: -3%;
+}
+.item1{
+    text-align: center;
+}
+.btn-blue{
+    padding: 0.7em;
+    background-color: #03B4CD;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+.btn-blue a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn-green{
+    padding: 0.7em;
+    background-color: #58B55F;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+.btn-green a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.item2{
+    text-align: center;
+}
+.item3{
+    text-align: center;
+}
+.item4{
+    text-align: center;
+}
+.item5{
+    text-align: center;
+}
+.item6{
+    text-align: center;
+}
+.item7{
+    text-align: center;
+}
+.item8{
+    text-align: center;
+}
+.item9{
+    text-align: center;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2em;
+}
+.button1{
+    padding: 2em;
+}
+.para1{
+    margin-top: -6%;
+    padding-bottom: 1em;
+    font-size: x-small;
+    color: grey;
+}
+.button2{
+    padding: 2em;
+}
+.para2{
+    margin-top: -6%;
+    padding-bottom: 1em;
+    font-size: x-small;
+    color: grey;
+}
+.button3{
+    padding: 2em;
+}
+.para3{
+    margin-top: -6%;
+    padding-bottom: 1em;
+    font-size: x-small;
+    color: grey;
+}
+.button4{
+    padding: 2em;
+}
+.para4{
+    margin-top: -6%;
+    padding-bottom: 1em;
+    font-size: x-small;
+    color: grey;
+}
+.button5{
+    padding: 2em;
+}
+.para5{
+    margin-top: -6%;
+    padding-bottom: 1em;
+    font-size: x-small;
+    color: grey;
+}
+.button6{
+    padding: 2em;
+}
+.para6{
+    margin-top: -6%;
+    padding-bottom: 1em;
+    font-size: x-small;
+    color: grey;
+}
+.button7{
+    padding: 2em;
+}
+.para7{
+    margin-top: -6%;
+    padding-bottom: 1em;
+    font-size: x-small;
+    color: grey;
+}
+.button8{
+    padding: 2em;
+}
+.para8{
+    margin-top: -6%;
+    padding-bottom: 1em;
+    font-size: x-small;
+    color: grey;
+}
+.button9{
+    padding: 2em;
+}
+.para9{
+    margin-top: -6%;
+    padding-bottom: 1em;
+    font-size: x-small;
+    color: grey;
+}
+.button10{
+    padding: 2em;
+}
+.para10{
+    margin-top: -6%;
+    padding-bottom: 1em;
+    font-size: x-small;
+    color: grey;
+}
+@media only screen and (max-width:4720) {
+    .head{
+        width: 1%;
+        margin-bottom: 19%;
+    }    
+    .main{
+        margin-left: 2.5%;
+        margin-top: -19.8%;
+    }
+    .text{
+        margin-left: 13em;
+        margin-top: -100em;
+    }
+    .view{
+        padding: 22em;
+        margin-top: -32%;
+    }
+    .line{
+        margin-top: -15%;
+        width: 12%;
+        margin-left: 43.5%;
+    }
+    .button{
+        width: 8%;
+        margin-top: -1.5%;
+    }
+    .section{
+        margin-top: -14%;
+    }
+    .footer{
+        padding: 21em;
+     margin-top: -29%;
+    }
+}
