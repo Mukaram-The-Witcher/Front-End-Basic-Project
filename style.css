@@ -81,29 +81,35 @@ nav{
     font-size: xx-large;
     font-family: fantasy;
     width: 3%;
-    margin-left: 1%;
+    margin-left: 6%;
+}
+.nav{
+    margin-top: 2%;
 }
 .main{
     display: flex;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-top: -3%;
     font-family: sans-serif;
 }
 .text{
-    margin-left: 8em;
+    margin-left: 10%;
     font-size: xx-small;
     color: grey;
 }
-.navbar ul li{
+.an{
+    margin-top: 2%;
+}
+.navbar ul{
     display: flex;
     float: right;
-    margin-right: 4%;
-    margin-top: -35px;
-    height: 12vh;}
+    gap: 16px;
+    margin-right: 7%;
+    margin-top: -2%;
+    list-style: none;
+}
  ul svg{
-        float: right;
-        margin-top: -2%;
-        margin-right: 2%;
+        margin-top: 1.5%;
 }
 .view{
     padding: 3em;
@@ -313,38 +319,4 @@ nav{
     padding-bottom: 1em;
     font-size: x-small;
     color: grey;
-}
-@media only screen and (max-width:4720) {
-    .head{
-        width: 1%;
-        margin-bottom: 19%;
-    }    
-    .main{
-        margin-left: 2.5%;
-        margin-top: -19.8%;
-    }
-    .text{
-        margin-left: 13em;
-        margin-top: -100em;
-    }
-    .view{
-        padding: 22em;
-        margin-top: -32%;
-    }
-    .line{
-        margin-top: -15%;
-        width: 12%;
-        margin-left: 43.5%;
-    }
-    .button{
-        width: 8%;
-        margin-top: -1.5%;
-    }
-    .section{
-        margin-top: -14%;
-    }
-    .footer{
-        padding: 21em;
-     margin-top: -29%;
-    }
 }
